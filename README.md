@@ -15,7 +15,7 @@ Right shoulderbutton = META/Win
 Left shoulderbutton = Esc
 
 
-Copy/paste this at the very end of config.txt (located in either /boot/config.txt) or /boot/firmware/config.txt
+Copy/paste dtoverlays in the very end of config.txt (located in either /boot/config.txt) or /boot/firmware/config.txt
 Keycodes can be swapped to any keypress/command
 
 dtoverlay=gpio-key,gpio=3,active_low=1,gpio_pull=up,keycode=28
